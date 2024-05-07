@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fffaf0;
+    height: 100vh;
+    width: 100vw;
+  }
+  header > .container {
+    height: 30vh;
+    flex-flow: column;
+  }
+  .container {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .sub-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 4px;
+  }
+  .boxes {
+    /* border: 0.1px solid; */
+    background: #f2f0e6;
+    font-size: 30px;
+  }
+  #intro-container {
+    display: flex;
+    flex: 2;
+  }
+  #calling-card {
+    flex: 3;
+    border: 1px solid;
+  }
+  #name {
+    font-size: 30px;
+    margin: 10px;
+    text-transform: uppercase;
+  }
+  #title {
+    margin: 0px 10px;
+    font-size: 20px;
+  }
+  #info {
+    flex: 2;
+    flex-flow: nowrap column;
+    border: 1px solid;
+  }
+  #info #text {
+    border: none;
+    display: flex;
+    font-size: 15px;
+  }
+  #image-container {
+    flex: 1;
+
+    max-width: 120px;
+    min-width: 60px;
+    border: 1px outset;
+  }
+  #calling-card #text {
+    flex: 3;
+    flex-flow: column;
+    justify-content: flex-start;
+  }
+  #property {
+    font-weight: bold;
+    margin-left: auto;
+    padding-right: 5%;
+  }
+  #property-value {
+    margin-right: auto;
+  }
+  #bio {
+    flex: 1;
+    font-size: 20px;
+  }
+  main {
+    height: 100%;
+    flex: 3;
+    flex-flow: column;
+    border-right: 1px solid;
+  }
+  aside {
+    height: 100%;
+    flex: 2;
+    flex-flow: column;
+  }
+  #main-category {
+    padding-bottom: 40px!important;
+  }
+  #main-item, #main-category {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 4px;
+  }
+  #main-item * {
+    font-size: 20px;
+  }
+  #location {
+    padding-left: 10px;
+  }
+  #date {
+    /* width:100px; */
+    padding-right: 10px;
+    text-align: right;
+  }
+  .progress_bar {
+    border: 1px solid;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .progress_bar * {
+    -webkit-border-radius: inherit;
+    border-radius: inherit;
+    text-align: right;
+    padding: 2px;
+  }
+  .progress_lightblue {
+    background: lightblue;
+  }
+  .progress_blue {
+    background: blue;
+    color: white;
+  }
+  .progress_green {
+    background: green;
+    color: white;
+  }
+  .progress_yellow {
+    background: yellow;
+  }
+  .progress_red {
+    background: red;
+    color: white;
+  }
+  #skill_lightblue,
+  #skill_blue,
+  #skill_green,
+  #skill_yellow,
+  #skill_red {
+    padding: 5px;
+  }
+  #skill_lightblue {
+    color: lightblue;
+  }
+  #skill_blue {
+    color: blue;
+  }
+  #skill_green {
+    color: green;
+  }
+  #skill_yellow {
+    color: yellow;
+  }
+  #skill_red {
+    color: red;
+  }
